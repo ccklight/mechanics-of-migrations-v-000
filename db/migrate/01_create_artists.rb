@@ -1,3 +1,14 @@
+class CreateArtists < ActiveRecord::Migration
+  def up
+  end
+
+  def down
+  end
+end
+
+
+
+
 ActiveRecord::Base.establish_connection(
   :adapter => "sqlite3",
   :database => "db/artists.sqlite"
@@ -11,5 +22,5 @@ ActiveRecord::Base.establish_connection(
   hometown TEXT
   )
 SQL
- 
+
 ActiveRecord::Base.connection.execute(sql)
