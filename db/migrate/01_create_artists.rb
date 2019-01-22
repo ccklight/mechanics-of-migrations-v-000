@@ -7,6 +7,8 @@ class CreateArtists < ActiveRecord::Migration
 end
 
 
+
+
 class CreateArtists < ActiveRecord::Migration
   def change
   end
